@@ -2,7 +2,6 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.2.1'
 
-gem 'sqlite3' 
 
 group :test do
   gem 'rspec-rails', '2.6.1'
@@ -20,6 +19,7 @@ end
 
 group :development do
   gem 'autotest'
+  gem 'sqlite3' 
 end
 
 gem 'jquery-rails'
